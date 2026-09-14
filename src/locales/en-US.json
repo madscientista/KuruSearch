@@ -1,8 +1,8 @@
 {
   "settings-page": {
     "meta": {
-      "title": "Settings – degoog",
-      "description": "degoog search settings."
+      "title": "Settings – Kurusearch",
+      "description": "Kurusearch search settings."
     },
     "back": "Back",
     "page-title": "Settings",
@@ -66,7 +66,7 @@
     },
     "install": {
       "heading": "Install app",
-      "desc": "Add degoog to your home screen. If your browser did not show the install prompt, use this to try again. This won't work unless you are serving your site via https and your browser supports PWA.",
+      "desc": "Add Kurusearch to your home screen. If your browser did not show the install prompt, use this to try again. This won't work unless you are serving your site via https and your browser supports PWA.",
       "prompt-button": "Show install prompt"
     },
     "update-check": {
@@ -150,16 +150,16 @@
           "honeypotBanDuration": "Honeypot ban duration",
           "apiKeySearchEnabled": "Search API key enforcement",
           "apiKeySuggestEnabled": "Suggestion API key enforcement",
-          "degoogIndexerEnabled": "Degoog Indexer",
+          "degoogIndexerEnabled": "Kurusearch Indexer",
           "domainBlockUiEnabled": "Domain block UI",
           "domainReplaceUiEnabled": "Domain replace UI",
           "domainScoreUiEnabled": "Domain score UI"
         }
       },
       "restart-heading": "Restart server",
-      "restart-desc": "Manually restart the Degoog server process.",
+      "restart-desc": "Manually restart the Kurusearch server process.",
       "restart-button": "Restart server",
-      "restart-confirm": "This restarts the Degoog server. Active searches may be interrupted briefly. Continue?",
+      "restart-confirm": "This restarts the Kurusearch server. Active searches may be interrupted briefly. Continue?",
       "restarting": "Restarting...",
       "cache-heading": "Cache",
       "cache-desc": "Flush stored cache entries. Search and autocomplete are kept separately; extensions register their own caches (e.g. wiki, ai-summary).",
@@ -268,13 +268,13 @@
       "honeypot-ban-permanent": "permanent",
       "honeypot-unban": "Unban",
       "honeypot-blocklist-empty": "No IPs are currently blocked.",
-      "indexer-heading": "Degoog Indexer",
-      "indexer-desc": "Record results you actually see and re-surface them as a Degoog engine on later searches.",
+      "indexer-heading": "Kurusearch Indexer",
+      "indexer-desc": "Record results you actually see and re-surface them as a Kurusearch engine on later searches.",
       "indexer-enable": "Enable the indexer",
       "indexer-enable-desc": "When on, search results are stored locally.",
-      "indexer-enable-aria": "Enable Degoog indexer",
+      "indexer-enable-aria": "Enable Kurusearch indexer",
       "searx-heading": "SearX compatibility layer",
-      "searx-desc": "Run SearXNG engines inside Degoog through a compatibility layer, no separate SearXNG instance needed.",
+      "searx-desc": "Run SearXNG engines inside Kurusearch through a compatibility layer, no separate SearXNG instance needed.",
       "searx-enable": "Enable the SearX compatibility layer",
       "searx-enable-desc": "When on, the SearX section appears in the engines tab so you can install engines from the SearXNG repository.",
       "searx-enable-aria": "Enable SearX compatibility layer",
@@ -341,7 +341,7 @@
       "configure": "Configure",
       "active": "Active",
       "built-in-theme-name": "Built-in",
-      "built-in-theme-desc": "Default degoog look.",
+      "built-in-theme-desc": "Default Kurusearch look.",
       "group-plugins": "Plugins",
       "group-builtin-commands": "Built-in commands",
       "group-transports": "Transports",
@@ -363,7 +363,7 @@
       "status-configured": "Configured",
       "status-needs-config": "Needs configuration",
       "extra-types": "Extra types:",
-      "requires-newer-version": "Requires a newer version of Degoog",
+      "requires-newer-version": "Requires a newer version of Kurusearch",
       "no-engines": "No search engines installed. Head to the {store} tab to browse and install some.",
       "no-engines-store": "Store",
       "no-autocomplete": "No autocomplete providers installed. Head to the {store} tab to browse and install some.",
@@ -371,14 +371,14 @@
       "restart-required": "Server restart required for this extension to work properly.",
       "searx-heading": "SearX engines",
       "searx-experimental": "Experimental",
-      "searx-desc": "Pull SearX-compatible engines straight from the SearXNG repository. This will run the python files straight within degoog without the need for a separate running SearXNG instance. Only degoog-compatible engines are listed.",
+      "searx-desc": "Pull SearX-compatible engines straight from the SearXNG repository. This will run the python files straight within Kurusearch without the need for a separate running SearXNG instance. Only Kurusearch-compatible engines are listed.",
       "searx-open": "Add from SearX",
       "searx-title": "SearX engines (experimental)",
-      "searx-note": "These are SearXNG engines running through a compatibility layer, not native Degoog ones, so there are trade-offs:",
+      "searx-note": "These are SearXNG engines running through a compatibility layer, not native Kurusearch ones, so there are trade-offs:",
       "searx-note-native": "Score, safe search, proxies, transports and bangs should all behave exactly like a store installed engine.",
-      "searx-note-upstream": "The code comes from SearXNG upstream and is not maintained by Degoog. Use at your own risk.",
+      "searx-note-upstream": "The code comes from SearXNG upstream and is not maintained by Kurusearch. Use at your own risk.",
       "searx-note-filters": "Image filters beyond safe search are not ported due to incompatibilities, when filtering the searx engines will likely throw no results.",
-      "searx-note-shared": "Some engines are dependant on another engine's code, degoog will warn you when that's the case.",
+      "searx-note-shared": "Some engines are dependant on another engine's code, Kurusearch will warn you when that's the case.",
       "searx-search": "Search SearX engines…",
       "searx-install": "Install",
       "searx-installed": "Installed",
@@ -396,11 +396,11 @@
       "searx-libs-hint": "Python libraries this engine runs on",
       "searx-missing": "Missing on this host",
       "searx-libs-title": "Python libs needed",
-      "searx-libs-body": "{engine} needs python libs this host does not have. Install them with \"pip install {packages}\" (or the matching system packages) and restart Degoog, otherwise the engine will fail to load. Do you want to install it anyway?",
+      "searx-libs-body": "{engine} needs python libs this host does not have. Install them with \"pip install {packages}\" (or the matching system packages) and restart Kurusearch, otherwise the engine will fail to load. Do you want to install it anyway?",
       "searx-shared-label": "also installs",
       "searx-shared-hint": "Shared SearXNG files installed alongside it",
       "searx-deps-title": "Dependency files needed",
-      "searx-deps-body": "{engine} borrows code from other SearXNG engines, so Degoog will download these engine files alongside it: \"{deps}\" in order for this to work. They stay behind the scenes as shared code and never appear as engines of their own. Do you want to install it anyway?"
+      "searx-deps-body": "{engine} borrows code from other SearXNG engines, so Kurusearch will download these engine files alongside it: \"{deps}\" in order for this to work. They stay behind the scenes as shared code and never appear as engines of their own. Do you want to install it anyway?"
     },
     "errors": {
       "load-extensions": "Failed to load extensions.",
@@ -416,16 +416,16 @@
       "incorrect-password": "Incorrect password.",
       "network-error": "Something went wrong. Please try again.",
       "misconfigured": "Settings authentication is misconfigured: the configured gate references a middleware that is not loaded. Contact the administrator to fix the gate setting or set DEGOOG_SETTINGS_PASSWORDS.",
-      "generated-password-note": "DEGOOG_SETTINGS_PASSWORDS is not set, so Degoog generated a temporary password for this run. Check the server logs for it. To intentionally disable this gate, set DEGOOG_DANGEROUSLY_NO_PASSWORD=true."
+      "generated-password-note": "DEGOOG_SETTINGS_PASSWORDS is not set, so Kurusearch generated a temporary password for this run. Check the server logs for it. To intentionally disable this gate, set DEGOOG_DANGEROUSLY_NO_PASSWORD=true."
     },
     "public": {
       "engines-heading": "Engines"
     },
     "indexer": {
-      "heading": "Degoog Indexer",
+      "heading": "Kurusearch Indexer",
       "desc": "Silently record every result you see and re-surface them on future searches.",
       "enable": "Enable the indexer",
-      "enable-desc": "When on, results from your searches are stored locally and re-surface as a Degoog engine.",
+      "enable-desc": "When on, results from your searches are stored locally and re-surface as a Kurusearch engine.",
       "filters-heading": "Indexing filters",
       "domain-allowlist": "Domain allowlist",
       "domain-allowlist-desc": "One domain per line. When non-empty, only results from these domains are indexed. Leave blank to allow all.",
@@ -564,7 +564,7 @@
       "done": "Done",
       "skip": "Skip tour",
       "progress": "{current} / {total}",
-      "welcome-title": "Welcome to Degoog",
+      "welcome-title": "Welcome to Kurusearch",
       "welcome-body": "Let's get your instance set up. You can skip this tour at any time.",
       "search-title": "This is your search bar",
       "search-body": "Type a query here and hit enter. Once you've set up engines, results come from the providers you choose.",
@@ -574,7 +574,7 @@
       "store-repos-body": "Repositories are git URLs that expose engines, autocomplete providers, themes, plugins, and transports. Add one to populate the catalog below - then come back here when you find more.",
       "store-repos-link": "Browse the community extensions list",
       "store-engines-title": "2. Install your first engines",
-      "store-engines-body": "Degoog ships with no search engines installed - searches return nothing until you add at least one. We've filtered the catalog to engines below; pick the providers you want.",
+      "store-engines-body": "Kurusearch ships with no search engines installed - searches return nothing until you add at least one. We've filtered the catalog to engines below; pick the providers you want.",
       "store-engines-hint": "{count} engine(s) installed. At least one is required to continue.",
       "store-autocomplete-title": "3. Install an autocomplete provider",
       "store-autocomplete-body": "Autocomplete providers power the live suggestions under the search bar - none ship by default. The catalog is filtered to autocomplete, install at least one for live suggestions.",
@@ -584,7 +584,7 @@
       "store-plugins-title": "5. Plugins (optional)",
       "store-plugins-body": "Plugins add commands, slots, middleware and other features. Only install plugins from sources you trust - they run code on your server.",
       "store-transports-title": "6. Transports (optional)",
-      "store-transports-body": "Transports change how Degoog reaches the internet (direct, proxy, custom HTTP clients). Install one if you need outgoing requests routed differently.",
+      "store-transports-body": "Transports change how Kurusearch reaches the internet (direct, proxy, custom HTTP clients). Install one if you need outgoing requests routed differently.",
       "engines-title": "7. Enable and configure engines",
       "engines-body": "Toggle the engines you installed, group them, and set per-engine options. The engines you enable here are the ones that will run on every search.",
       "autocomplete-title": "8. Pick your autocomplete",
@@ -657,7 +657,7 @@
         },
         "go-home": {
           "label": "Go to home",
-          "desc": "Return to the Degoog home page."
+          "desc": "Return to the Kurusearch home page."
         },
         "go-settings": {
           "label": "Go to settings",
@@ -681,10 +681,10 @@
       "heading": "Restart required",
       "desc": "Some installed extensions need a server restart to work properly.",
       "modal-intro": "These extensions only start working after the server restarts:",
-      "modal-note": "Restarting stops Degoog for a few seconds. You can restart later from Settings › General.",
+      "modal-note": "Restarting stops Kurusearch for a few seconds. You can restart later from Settings › General.",
       "later": "Not now",
       "button": "Restart server",
-      "confirm": "This restarts the Degoog server. Active searches may be interrupted briefly. Continue?",
+      "confirm": "This restarts the Kurusearch server. Active searches may be interrupted briefly. Continue?",
       "restarting": "Restarting..."
     }
   }
