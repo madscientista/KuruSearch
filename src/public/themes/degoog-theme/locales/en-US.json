@@ -1,8 +1,8 @@
 {
   "app": {
-    "title": "degoog",
-    "name": "Degoog",
-    "description": "degoog is an alternative search engine aggregator."
+    "title": "KuruSearch",
+    "name": "KuruSearch",
+    "description": "KuruSearch is an alternative search engine aggregator."
   },
   "index-templates": {
     "footer": {
@@ -13,7 +13,7 @@
       "settings-title": "Settings"
     },
     "search": {
-      "search-button": "degoog Search",
+      "search-button": "KuruSearch",
       "feeling-lucky": "I'm Feeling Lucky",
       "feeling-curious": "I'm Feeling Curious",
       "feeling-adventurous": "I'm Feeling Adventurous",
