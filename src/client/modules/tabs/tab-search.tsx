@@ -134,7 +134,7 @@ export async function performTabSearch(
     });
     void fetchGlancePanels(query);
   }
-  document.title = `${query} - degoog`;
+  document.title = `${query} - KuruSearch`;
 
   const layout = document.getElementById("results-layout");
   if (layout) {
