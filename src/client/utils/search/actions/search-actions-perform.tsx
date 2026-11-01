@@ -327,7 +327,7 @@ async function _performBangCommand(
   const sidebar = document.getElementById("results-sidebar");
   if (sidebar) clear(sidebar);
   clearSlotPanels();
-  document.title = `${query} - degoog`;
+  document.title = `${query} - KuruSearch`;
   setTabsForBang([]);
 
   state.currentBangQuery = query;
