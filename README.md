@@ -10,17 +10,6 @@ Please check the [documentation](https://degoog-org.github.io/docs/) before rais
 
 ---
 
-<p align="center">
-  <a href="https://discord.gg/invite/mMuk2WzVZu">
-    <img width="40" src="https://skills.syvixor.com/api/icons?i=discord">
-  </a>
-  <br />
-  <i>Join our discord community</i>
-  <br />
-</p>
-
----
-
 <div align="center">
   <img width="800" src="screenshots/home.png">
 </div>
