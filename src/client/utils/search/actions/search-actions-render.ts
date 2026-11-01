@@ -133,7 +133,7 @@ export const prepareResultsUi = (query: string, resolvedType: string): void => {
     if (isImageType) clear(sidebar);
     else render(SkeletonSidebar(), sidebar);
   }
-  document.title = `${query || (currentSearchImage() ? coreT("search-image.title") : "")} - degoog`;
+  document.title = `${query || (currentSearchImage() ? coreT("search-image.title") : "")} - KuruSearch`;
 };
 
 export const showSearchFailure = (message: string): void => {
