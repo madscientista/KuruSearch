@@ -189,18 +189,3 @@ _**Note:** These have only been INITIALLY vetted, there is no way for me to keep
 ## Documentation
 
 Full customisation guide (plugins, themes, engines, transports, store, settings gate, aliases, env): **[documentation](https://degoog-org.github.io/docs)**.
-
-## Little shoutout
-
-This project would have never existed if the amazing [searxng](https://github.com/searxng/searxng) developers hadn't had the idea first. This is my take on a heavily customisable search aggregrator, it's meant to be a more modular lighter alternative, you can add as much as you want to it, but the core will stay as simple as it gets.
-
-Alternatives are what make the internet a fun place, let me share a few other aggregators you may want to try out, the beauty of open source is that there's no competition (or at least there shouldn't be, none of us do this shit for money after all).
-
-| name       | repo                                 |
-| :--------- | :----------------------------------- |
-| searxng    | https://github.com/searxng/searxng   |
-| 4get       | https://git.lolcat.ca/lolcat/4get    |
-| OmniSearch | https://git.bwaaa.monster/omnisearch |
-| LibreY     | https://github.com/Ahwxorg/LibreY    |
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=degoog-org/degoog&type=date&legend=top-left)](https://star-history.dera.page/#degoog-org/degoog&type=date&legend=top-left)
