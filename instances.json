@@ -36,17 +36,6 @@
       "theme": null
     },
     {
-      "id": "search-drescher-network",
-      "name": "search.drescher.network",
-      "clearnet": [
-        "https://search.drescher.network"
-      ],
-      "tor": [],
-      "i2p": [],
-      "appearance": "default",
-      "theme": null
-    },
-    {
       "id": "nepnir-com",
       "name": "nepnir.com",
       "clearnet": [
@@ -76,7 +65,30 @@
       "i2p": [],
       "appearance": "custom",
       "theme": "kaosearch",
-      "country": "DE",
+      "country": "DE"
+    },
+    {
+      "id": "degoo-gl",
+      "name": "degoo.gl",
+      "clearnet": [
+        "https://degoo.gl"],
+      "tor": [],
+      "i2p": [],
+      "appearance": "default",
+      "theme": null,
+      "country": null,
+      "cloudflare": true
+    },
+    {
+      "id": "degoog-gl",
+      "name": "degoog.gl",
+      "clearnet": [
+        "https://degoog.gl"],
+      "tor": [],
+      "i2p": [],
+      "appearance": "default",
+      "theme": null,
+      "country": null,
       "cloudflare": true
     }
   ]
